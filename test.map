@@ -1,0 +1,7 @@
+shared.so
+{
+global:
+	test;
+local:
+	*;
+};
