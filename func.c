@@ -1,9 +1,9 @@
 //#include <iostream>
 #include <stdio.h>
 
-extern "C" int func() {
+int func() {
 //auto f = [](){std::cout << "I'm printed from static libc\n";};
 //f();
-printf("I'm printed from static libc\n");
+printf("%s:I'm printed from static libc\n",__FILE__);
 return 1;
 }
