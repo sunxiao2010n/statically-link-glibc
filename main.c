@@ -1,10 +1,6 @@
 
 int test();
-
-int func() {
-return 1;
-}
-
+int func() { return 2; }
 
 void main() {
 func();
